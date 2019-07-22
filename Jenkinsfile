@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checkout') { 
             steps {
-            git '' 
+            git 'https://github.com/cdpipeline/warrepo.git'
             }
         }
         stage('Build') { 
